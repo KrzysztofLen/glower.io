@@ -1,0 +1,34 @@
+{
+    "name": "glow.io",
+    "version": "0.0.1",
+    "author": {
+        "name": "Krzysztof Len",
+        "email": "len.krzysztof@gmail.com"
+    },
+    "description": "Glow is CSS framework to make your dark mode exordinary",
+    "main": "index.js",
+    "scripts": {
+        "build:scss": "node-sass -watch scss -o css",
+        "start": "npm run build:scss"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KrzysztofLen/glow.io.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "scss",
+        "glow",
+        "dark mode",
+        "framework"
+    ],
+    "bugs": {
+        "url": "https://github.com/KrzysztofLen/glow.io/issues"
+    },
+    "homepage": "https://github.com/KrzysztofLen/glow.io#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.1.0",
+        "node-sass": "^5.0.0"
+    }
+}

@@ -1,0 +1,9 @@
+# Files
+
+.DS_Store
+npm-debug.log
+
+# Folders
+
+.idea/
+node_modules
