@@ -1,7 +1,15 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
+jobs:
+  check_vulnerabilities:
+    docker:
+      - image: circleci/node:latest
+    working_directory: ~/circleci-deployment
+    steps:
+      - run: npm install
+      - run: npm audit
 workflows:
-  node-tests:
+  test_build_deploy:
     jobs:
-      - node/test
+      - check_vulnerabilities
