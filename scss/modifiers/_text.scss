@@ -1,0 +1,13 @@
+.glower-text {
+	color: $white;
+	text-shadow: 0 0 0 transparent, 1px 1px 4px $white,
+		1px 1px 4px $white;
+}
+
+@each $name, $colour in $colours {
+	&.glower-text-#{$name} {
+		color: $colour;
+		text-shadow: 0 0 0 transparent, 1px 1px 4px $colour,
+		1px 1px 4px $colour;
+	}
+}

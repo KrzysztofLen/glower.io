@@ -1,6 +1,6 @@
 @import "../utilities/colors";
 
-$button-color: $white-neon !default;
+$button-color: $white !default;
 $button-text: $grey !default;
 $button-background: linear-gradient($button-text, $grey-1);
 $button-size: $medium !default;
@@ -30,7 +30,7 @@ $round: (5, 10, 15, 20, 25);
 	}
 
 	@each $name, $colour in $colours {
-		&.#{$name}-neon {
+		&.#{$name} {
 			color: $colour;
 			border: 1px solid $colour;
 			box-shadow: inset 5px 5px 15px -2px transparent,
@@ -54,11 +54,11 @@ $round: (5, 10, 15, 20, 25);
 			}
 
 			&.text-light {
-				color: $white-neon;
+				color: $white;
 
 				&:disabled {
 					&:hover {
-						color: $white-neon;
+						color: $white;
 					}
 				}
 			}
@@ -87,11 +87,11 @@ $round: (5, 10, 15, 20, 25);
 				}
 
 				&.text-light {
-					color: $white-neon;
+					color: $white;
 
 					&:disabled {
 						&:hover {
-							color: $white-neon;
+							color: $white;
 						}
 					}
 				}
@@ -130,9 +130,9 @@ $round: (5, 10, 15, 20, 25);
 }
 
 .text-light {
-	color: $white-neon;
+	color: $white;
 
 	&:hover {
-		color: $white-neon;
+		color: $white;
 	}
 }

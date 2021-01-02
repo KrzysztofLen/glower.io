@@ -1,7 +1,7 @@
 @import "../utilities/colors";
 
 $badge-radius: 4px !default;
-$badge-background-color: $white-neon;
+$badge-background-color: $white;
 $badge-font-size: 0.75rem;
 $badge-text: $grey;
 
@@ -25,8 +25,8 @@ $badge-text: $grey;
 		inset 1px 0px 10px 0px $button-color, 1px 0px 10px 0px $button-color;
 
 	@each $name, $colour in $colours {
-		&.#{$name}-neon {
-			color: $white-neon;
+		&.#{$name} {
+			color: $white;
 			background: $colour;
 			border: 1px solid $colour;
 			box-shadow: inset 5px 5px 15px -2px transparent,
@@ -34,7 +34,7 @@ $badge-text: $grey;
 		}
 
 		@if $name == yellow {
-			&.yellow-neon {
+			&.yellow {
 				color: $grey;
 			}
 		}
