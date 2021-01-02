@@ -8,7 +8,7 @@
     "description": "Glow is CSS framework to make your dark mode exordinary",
     "main": "index.js",
     "scripts": {
-        "build:scss": "node-sass -watch scss -o css",
+        "build:scss": "node-sass --output-style expanded --source-map true scss/main.scss css/main.css --watch",
         "start": "npm run build:scss"
     },
     "repository": {
