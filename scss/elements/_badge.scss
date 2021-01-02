@@ -1,0 +1,36 @@
+@import "../utilities/colors";
+
+$badge-radius: 4px !default;
+$badge-background-color: $white-neon;
+$badge-font-size: 0.75rem;
+$badge-text: $grey;
+
+.glower-badge {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	height: 2em;
+	color: $badge-text;
+	border-radius: 4px;
+	line-height: 1.5;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	font-size: $badge-font-size;
+	white-space: nowrap;
+	background-color: $badge-background-color;
+	border-radius: $badge-radius;
+	border: 1px solid $button-color;
+	box-shadow: inset 5px 5px 15px -2px rgba(0, 0, 0, 0),
+		inset 1px 0px 10px 0px $button-color, 1px 0px 10px 0px $button-color;
+
+	@each $name, $colour in $colours {
+		&.#{$name}-neon {
+			color: $white-neon;
+			background: $colour;
+			border: 1px solid $colour;
+			box-shadow: inset 5px 5px 15px -2px rgba(0, 0, 0, 0),
+				inset 1px 0px 10px 0px $colour, 1px 0px 10px 0px $colour;
+		}
+	}
+}

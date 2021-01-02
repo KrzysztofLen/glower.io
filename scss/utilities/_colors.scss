@@ -1,4 +1,4 @@
-// Neon White: 
+// Neon White:
 $white-neon: #efe;
 
 // Neon Yellow:
@@ -28,5 +28,16 @@ $pink-neon: #ff0099;
 // Neon Purple:
 $purple-neon: #9d00ff;
 
+$grey: #333933;
 
-$grey:  #333933;
+$colours: (
+	yellow: $yellow-neon,
+	green: $green-neon,
+	red: $red-neon,
+	orange: $orange-neon,
+	aqua: $aqua-neon,
+	blue: $blue-neon,
+	magenta: $magenta-neon,
+	pink: $pink-neon,
+	purple: $purple-neon,
+);
