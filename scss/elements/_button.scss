@@ -31,6 +31,7 @@ $round: (5, 10, 15, 20, 25);
 	text-align: center;
 	white-space: nowrap;
 	outline: none;
+	position: relative;
 
 	&:hover {
 		color: $button-text;
@@ -52,6 +53,17 @@ $round: (5, 10, 15, 20, 25);
 			background: $colour;
 		}
 
+		&:disabled {
+			opacity: 0.5;
+			cursor: not-allowed;
+			user-select: none;
+
+			&:hover {
+				color: $colour;
+				background: linear-gradient($button-text, #222922);
+			}
+		}
+
 		&.full {
 			color: $button-text;
 			background: $colour;
@@ -62,11 +74,34 @@ $round: (5, 10, 15, 20, 25);
 				box-shadow: inset 5px 5px 15px -2px rgba(0, 0, 0, 0),
 					inset 1px 0px 10px 0px lighten($colour, 10%),
 					1px 0px 10px 0px lighten($colour, 10%);
-            }
-            
-            &.text-light {
-                color: $white-neon;
-            }
+			}
+
+			&:disabled {
+				opacity: 0.5;
+				cursor: not-allowed;
+				user-select: none;
+
+				&:hover {
+					color: $button-text;
+					background: $colour;
+				}
+			}
+
+			&.text-light {
+				color: $white-neon;
+
+				&:disabled {
+					&:hover {
+						color: $white-neon;
+					}
+				}
+			}
+		}
+
+		&.loading {
+			color: transparent;
+
+			@include spinner($colour);
 		}
 
 		@each $value in $round {
@@ -90,10 +125,14 @@ $round: (5, 10, 15, 20, 25);
 	font-size: $large;
 }
 
-.text-light {
-    color: $white-neon;
+.full-width {
+    width: 100%;
+}
 
-    &:hover {
-        color: $white-neon;
-    }
+.text-light {
+	color: $white-neon;
+
+	&:hover {
+		color: $white-neon;
+	}
 }
