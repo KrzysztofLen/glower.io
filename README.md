@@ -1,6 +1,6 @@
-Glow.io
+Glower.io
 
-![CircleCI](https://img.shields.io/circleci/build/github/KrzysztofLen/glow.io?token=0e4f222a9e785ae31a5d3456a25fd21ee9e71a6b)
+![CircleCI](https://img.shields.io/circleci/build/github/KrzysztofLen/glower.io?token=56a9cb9dae0b62a5bc968ee0f778ea15ed0adbf3)
 
 
-Glow is a CSS framework to make your dark mode exordinary.
+Glower is a CSS framework to make your dark mode exordinary.
