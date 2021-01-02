@@ -21,7 +21,7 @@ $badge-text: $grey;
 	background-color: $badge-background-color;
 	border-radius: $badge-radius;
 	border: 1px solid $button-color;
-	box-shadow: inset 5px 5px 15px -2px rgba(0, 0, 0, 0),
+	box-shadow: inset 5px 5px 15px -2px transparent,
 		inset 1px 0px 10px 0px $button-color, 1px 0px 10px 0px $button-color;
 
 	@each $name, $colour in $colours {
@@ -29,8 +29,14 @@ $badge-text: $grey;
 			color: $white-neon;
 			background: $colour;
 			border: 1px solid $colour;
-			box-shadow: inset 5px 5px 15px -2px rgba(0, 0, 0, 0),
+			box-shadow: inset 5px 5px 15px -2px transparent,
 				inset 1px 0px 10px 0px $colour, 1px 0px 10px 0px $colour;
+		}
+
+		@if $name == yellow {
+			&.yellow-neon {
+				color: $grey;
+			}
 		}
 	}
 }

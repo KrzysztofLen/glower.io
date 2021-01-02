@@ -8,6 +8,8 @@
     "description": "Glow is CSS framework to make your dark mode exordinary",
     "main": "index.js",
     "scripts": {
+        "build": "npm run build:scss && npm run build:autoprefix",
+        "build:autoprefix": "postcss --use autoprefixer --map false --output css/main.css css/main.css",
         "build:scss": "node-sass --output-style expanded --source-map true scss/main.scss css/main.css --watch",
         "start": "npm run build:scss"
     },
@@ -29,6 +31,9 @@
     "homepage": "https://github.com/KrzysztofLen/glow.io#readme",
     "devDependencies": {
         "autoprefixer": "^10.1.0",
-        "node-sass": "^5.0.0"
+        "clean-css-cli": "^4.3.0",
+        "node-sass": "^5.0.0",
+        "postcss": "^8.2.2",
+        "postcss-cli": "^8.3.1"
     }
 }
