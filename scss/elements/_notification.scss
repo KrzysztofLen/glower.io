@@ -1,0 +1,41 @@
+$notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default;
+
+.glower-notification {
+	position: relative;
+	padding: $notification-padding;
+    background: $white;
+    color: $grey;
+    @include glower($white);
+
+	& > .close {
+		right: 0.5rem;
+		position: absolute;
+		top: 0.5rem;
+		background: transparent;
+		color: $white;
+	}
+
+	strong {
+		color: currentColor;
+	}
+
+	@each $value in $round {
+		&.rounded-#{$value} {
+			border-radius: $value + px;
+		}
+	}
+
+	@each $name, $colour in $colours {
+		&.#{$name} {
+			color: darken($colour, 40%);
+			background: $colour;
+			border: 1px solid $colour;
+			@include glower($colour);
+
+			&.outlined {
+				color: $colour;
+				background: transparent;
+			}
+		}
+	}
+}
