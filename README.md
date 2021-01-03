@@ -10,3 +10,30 @@ Glower is a **CSS framework** to make your **dark mode exordinary**.
 
 <br />
 <img src=https://i.ibb.co/vYMyv1C/ezgif-com-gif-maker-1.gif />
+<br />
+
+## Quick install
+
+Glower is constantly in development! Try it out now:
+
+### NPM
+
+```sh
+Comming soon
+```
+
+### Import
+After installation, you can import the CSS file into your project using this snippet:
+
+```sh
+@import 'glower/css/main.css'
+```
+
+## Browser Support
+
+Comming soon
+
+## Documentation
+
+Comming soon
+
