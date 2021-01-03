@@ -89,6 +89,12 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+@-webkit-keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @keyframes spinner {
   to {
     transform: rotate(360deg);
@@ -136,7 +142,10 @@ input::-moz-focus-inner {
 .glower-button.yellow:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.yellow:disabled:hover {
@@ -166,7 +175,10 @@ input::-moz-focus-inner {
 .glower-button.yellow.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.yellow.full:disabled:hover {
@@ -200,7 +212,8 @@ input::-moz-focus-inner {
   border: 2px solid #ffff33;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #ffff33, 0px 0px 5px 0px #ffff33;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.yellow.rounded-5 {
@@ -238,7 +251,10 @@ input::-moz-focus-inner {
 .glower-button.green:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.green:disabled:hover {
@@ -268,7 +284,10 @@ input::-moz-focus-inner {
 .glower-button.green.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.green.full:disabled:hover {
@@ -302,7 +321,8 @@ input::-moz-focus-inner {
   border: 2px solid #00ff33;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #00ff33, 0px 0px 5px 0px #00ff33;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.green.rounded-5 {
@@ -340,7 +360,10 @@ input::-moz-focus-inner {
 .glower-button.red:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.red:disabled:hover {
@@ -370,7 +393,10 @@ input::-moz-focus-inner {
 .glower-button.red.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.red.full:disabled:hover {
@@ -404,7 +430,8 @@ input::-moz-focus-inner {
   border: 2px solid #ff0000;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #ff0000, 0px 0px 5px 0px #ff0000;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.red.rounded-5 {
@@ -442,7 +469,10 @@ input::-moz-focus-inner {
 .glower-button.orange:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.orange:disabled:hover {
@@ -472,7 +502,10 @@ input::-moz-focus-inner {
 .glower-button.orange.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.orange.full:disabled:hover {
@@ -506,7 +539,8 @@ input::-moz-focus-inner {
   border: 2px solid #ff6600;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #ff6600, 0px 0px 5px 0px #ff6600;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.orange.rounded-5 {
@@ -544,7 +578,10 @@ input::-moz-focus-inner {
 .glower-button.aqua:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.aqua:disabled:hover {
@@ -574,7 +611,10 @@ input::-moz-focus-inner {
 .glower-button.aqua.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.aqua.full:disabled:hover {
@@ -608,7 +648,8 @@ input::-moz-focus-inner {
   border: 2px solid #00ffff;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #00ffff, 0px 0px 5px 0px #00ffff;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.aqua.rounded-5 {
@@ -646,7 +687,10 @@ input::-moz-focus-inner {
 .glower-button.blue:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.blue:disabled:hover {
@@ -676,7 +720,10 @@ input::-moz-focus-inner {
 .glower-button.blue.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.blue.full:disabled:hover {
@@ -710,7 +757,8 @@ input::-moz-focus-inner {
   border: 2px solid #0033ff;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #0033ff, 0px 0px 5px 0px #0033ff;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.blue.rounded-5 {
@@ -748,7 +796,10 @@ input::-moz-focus-inner {
 .glower-button.magenta:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.magenta:disabled:hover {
@@ -778,7 +829,10 @@ input::-moz-focus-inner {
 .glower-button.magenta.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.magenta.full:disabled:hover {
@@ -812,7 +866,8 @@ input::-moz-focus-inner {
   border: 2px solid #ff00ff;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #ff00ff, 0px 0px 5px 0px #ff00ff;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.magenta.rounded-5 {
@@ -850,7 +905,10 @@ input::-moz-focus-inner {
 .glower-button.pink:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.pink:disabled:hover {
@@ -880,7 +938,10 @@ input::-moz-focus-inner {
 .glower-button.pink.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.pink.full:disabled:hover {
@@ -914,7 +975,8 @@ input::-moz-focus-inner {
   border: 2px solid #ff0099;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #ff0099, 0px 0px 5px 0px #ff0099;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.pink.rounded-5 {
@@ -952,7 +1014,10 @@ input::-moz-focus-inner {
 .glower-button.purple:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.purple:disabled:hover {
@@ -982,7 +1047,10 @@ input::-moz-focus-inner {
 .glower-button.purple.full:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .glower-button.purple.full:disabled:hover {
@@ -1016,7 +1084,8 @@ input::-moz-focus-inner {
   border: 2px solid #9d00ff;
   border-top-color: #efe;
   box-shadow: inset 0px 0px 5px 0px #9d00ff, 0px 0px 5px 0px #9d00ff;
-  animation: spinner 0.6s linear infinite;
+  -webkit-animation: spinner 0.6s linear infinite;
+          animation: spinner 0.6s linear infinite;
 }
 
 .glower-button.purple.rounded-5 {
@@ -1346,5 +1415,4 @@ input::-moz-focus-inner {
   color: #9d00ff;
   text-shadow: 0 0 0 transparent, 1px 1px 4px #9d00ff, 1px 1px 4px #9d00ff;
 }
-
 /*# sourceMappingURL=main.css.map */
