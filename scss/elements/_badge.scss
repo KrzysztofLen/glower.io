@@ -24,13 +24,23 @@ $badge-text: $grey;
 	box-shadow: inset 5px 5px 15px -2px transparent,
 		inset 1px 0px 10px 0px $button-color, 1px 0px 10px 0px $button-color;
 
+	&.glassmorphism {
+		color: $white;
+		@include glassmorphism($badge-background-color);
+	}
+
 	@each $name, $colour in $colours {
 		&.#{$name} {
 			color: $white;
-			background: $colour;
+			background-color: $colour;
 			border: 1px solid $colour;
 			box-shadow: inset 5px 5px 15px -2px transparent,
 				inset 1px 0px 10px 0px $colour, 1px 0px 10px 0px $colour;
+
+			&.glassmorphism {
+				color: $white;
+				@include glassmorphism($colour);
+			}
 		}
 
 		@if $name == yellow {
