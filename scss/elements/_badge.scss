@@ -21,8 +21,7 @@ $badge-text: $grey;
 	background-color: $badge-background-color;
 	border-radius: $badge-radius;
 	border: 1px solid $button-color;
-	box-shadow: inset 5px 5px 15px -2px transparent,
-		inset 1px 0px 10px 0px $button-color, 1px 0px 10px 0px $button-color;
+	@include glower($button-color);
 
 	&.glassmorphism {
 		color: $white;
@@ -36,6 +35,7 @@ $badge-text: $grey;
 			border: 1px solid $colour;
 			box-shadow: inset 5px 5px 15px -2px transparent,
 				inset 1px 0px 10px 0px $colour, 1px 0px 10px 0px $colour;
+			@include glower($colour);
 
 			&.glassmorphism {
 				color: $white;
