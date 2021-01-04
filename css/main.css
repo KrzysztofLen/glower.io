@@ -1276,6 +1276,17 @@ input::-moz-focus-inner {
   box-shadow: inset 5px 5px 15px -2px transparent, inset 1px 0px 10px 0px #efe, 1px 0px 10px 0px #efe;
 }
 
+.glower-notification.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.glassmorphism {
+    background-color: rgba(238, 255, 238, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification > .close {
   right: 0.5rem;
   position: absolute;
@@ -1320,6 +1331,17 @@ input::-moz-focus-inner {
   background: transparent;
 }
 
+.glower-notification.yellow.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.yellow.glassmorphism {
+    background-color: rgba(255, 255, 51, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification.green {
   color: #00330a;
   background: #00ff33;
@@ -1330,6 +1352,17 @@ input::-moz-focus-inner {
 .glower-notification.green.outlined {
   color: #00ff33;
   background: transparent;
+}
+
+.glower-notification.green.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.green.glassmorphism {
+    background-color: rgba(0, 255, 51, 0.25);
+    backdrop-filter: blur(4px);
+  }
 }
 
 .glower-notification.red {
@@ -1344,6 +1377,17 @@ input::-moz-focus-inner {
   background: transparent;
 }
 
+.glower-notification.red.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.red.glassmorphism {
+    background-color: rgba(255, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification.orange {
   color: #331400;
   background: #ff6600;
@@ -1354,6 +1398,17 @@ input::-moz-focus-inner {
 .glower-notification.orange.outlined {
   color: #ff6600;
   background: transparent;
+}
+
+.glower-notification.orange.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.orange.glassmorphism {
+    background-color: rgba(255, 102, 0, 0.25);
+    backdrop-filter: blur(4px);
+  }
 }
 
 .glower-notification.aqua {
@@ -1368,6 +1423,17 @@ input::-moz-focus-inner {
   background: transparent;
 }
 
+.glower-notification.aqua.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.aqua.glassmorphism {
+    background-color: rgba(0, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification.blue {
   color: #000a33;
   background: #0033ff;
@@ -1378,6 +1444,17 @@ input::-moz-focus-inner {
 .glower-notification.blue.outlined {
   color: #0033ff;
   background: transparent;
+}
+
+.glower-notification.blue.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.blue.glassmorphism {
+    background-color: rgba(0, 51, 255, 0.25);
+    backdrop-filter: blur(4px);
+  }
 }
 
 .glower-notification.magenta {
@@ -1392,6 +1469,17 @@ input::-moz-focus-inner {
   background: transparent;
 }
 
+.glower-notification.magenta.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.magenta.glassmorphism {
+    background-color: rgba(255, 0, 255, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification.pink {
   color: #33001f;
   background: #ff0099;
@@ -1404,6 +1492,17 @@ input::-moz-focus-inner {
   background: transparent;
 }
 
+.glower-notification.pink.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.pink.glassmorphism {
+    background-color: rgba(255, 0, 153, 0.25);
+    backdrop-filter: blur(4px);
+  }
+}
+
 .glower-notification.purple {
   color: #1f0033;
   background: #9d00ff;
@@ -1414,6 +1513,17 @@ input::-moz-focus-inner {
 .glower-notification.purple.outlined {
   color: #9d00ff;
   background: transparent;
+}
+
+.glower-notification.purple.glassmorphism {
+  color: #efe;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .glower-notification.purple.glassmorphism {
+    background-color: rgba(157, 0, 255, 0.25);
+    backdrop-filter: blur(4px);
+  }
 }
 
 .glower-text {
