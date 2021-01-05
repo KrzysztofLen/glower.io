@@ -17,13 +17,6 @@
 	}
 }
 
-@mixin glassmorphism($bg-color) {
-	@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-		background-color: rgba($bg-color, 0.25);
-		backdrop-filter: blur(4px);
-	}
-}
-
 @mixin glower($colour) {
 	box-shadow: inset 5px 5px 15px -2px transparent,
 		inset 1px 0px 10px 0px $colour, 1px 0px 10px 0px $colour;
