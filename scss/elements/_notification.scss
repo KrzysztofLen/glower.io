@@ -7,11 +7,6 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default;
 	color: $grey;
 	@include glower($white);
 
-	&.glassmorphism {
-		color: $white;
-		@include glassmorphism($white);
-	}
-
 	& > .close {
 		right: 0.5rem;
 		position: absolute;
@@ -40,11 +35,6 @@ $notification-padding: 1.25rem 2.5rem 1.25rem 1.5rem !default;
 			&.outlined {
 				color: $colour;
 				background: transparent;
-			}
-
-			&.glassmorphism {
-				color: $white;
-				@include glassmorphism($colour);
 			}
 		}
 	}
