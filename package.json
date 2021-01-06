@@ -1,51 +1,57 @@
 {
-    "name": "glower.io",
-    "version": "0.0.4",
-    "author": {
-        "name": "Krzysztof Len",
-        "email": "len.krzysztof@gmail.com"
-    },
-    "description": "Glow is CSS framework to make your dark mode exordinary",
-    "main": "scss/main.scss",
-    "scripts": {
-        "build": "npm run build:scss && npm run build:autoprefix && npm rum build:cleancss",
-        "build:cleancss": "cleancss -o css/main.min.css css/main.css",
-        "build:autoprefix": "postcss --use autoprefixer --map false --output css/main.css css/main.css",
-        "build:scss": "node-sass --output-style expanded --source-map true scss/main.scss css/main.css",
-        "start": "npm run build:scss --watch",
-        "clean": "rimraf css"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/KrzysztofLen/glower.io.git"
-    },
-    "license": "MIT",
-    "keywords": [
-        "css",
-        "scss",
-        "glow",
-        "dark mode",
-        "framework"
-    ],
-    "files": [
-        "css",
-        "scss",
-        "LICENSE",
-        "README.md"
-    ],
-    "bugs": {
-        "url": "https://github.com/KrzysztofLen/glow.io/issues"
-    },
-    "homepage": "https://github.com/KrzysztofLen/glow.io#readme",
-    "devDependencies": {
-        "@commitlint/cli": "^11.0.0",
-        "@commitlint/config-conventional": "^11.0.0",
-        "autoprefixer": "^10.1.0",
-        "clean-css-cli": "^4.3.0",
-        "husky": "^4.3.6",
-        "node-sass": "^5.0.0",
-        "postcss": "^8.2.2",
-        "postcss-cli": "^8.3.1",
-        "rimraf": "^3.0.2"
-    }
+  "name": "glower.io",
+  "version": "0.0.4",
+  "author": {
+    "name": "Krzysztof Len",
+    "email": "len.krzysztof@gmail.com"
+  },
+  "description": "Glow is CSS framework to make your dark mode exordinary",
+  "main": "scss/main.scss",
+  "scripts": {
+    "build": "npm run build:scss && npm run build:autoprefix && npm rum build:cleancss",
+    "build:cleancss": "cleancss -o css/main.min.css css/main.css",
+    "build:autoprefix": "postcss --use autoprefixer --map false --output css/main.css css/main.css",
+    "build:scss": "node-sass --output-style expanded --source-map true scss/main.scss css/main.css",
+    "start": "npm run build:scss --watch",
+    "clean": "rimraf css",
+    "lint:scss": "stylelint scss/**/*.scss",
+    "lint:scss:fix": "stylelint scss/**/*.scss --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrzysztofLen/glower.io.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "glow",
+    "dark mode",
+    "framework"
+  ],
+  "files": [
+    "css",
+    "scss",
+    "LICENSE",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/KrzysztofLen/glow.io/issues"
+  },
+  "homepage": "https://github.com/KrzysztofLen/glow.io#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "autoprefixer": "^10.1.0",
+    "clean-css-cli": "^4.3.0",
+    "husky": "^4.3.6",
+    "lint-staged": "^10.5.3",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.2",
+    "postcss-cli": "^8.3.1",
+    "rimraf": "^3.0.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  }
 }
