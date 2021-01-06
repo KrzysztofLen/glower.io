@@ -1,0 +1,15 @@
+{
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "rules": {
+        "max-empty-lines": 2,
+        "color-hex-case": [
+            "lower",
+            {
+                "message": "Lowercase letters are easier to distinguish from numbers"
+            }
+        ],
+        "color-hex-length": "long"
+    }
+}
