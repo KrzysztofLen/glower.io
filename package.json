@@ -36,9 +36,9 @@
     "README.md"
   ],
   "bugs": {
-    "url": "https://github.com/KrzysztofLen/glow.io/issues"
+    "url": "https://github.com/KrzysztofLen/glower.io/issues"
   },
-  "homepage": "https://github.com/KrzysztofLen/glow.io#readme",
+  "homepage": "https://github.com/KrzysztofLen/glower.io#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
