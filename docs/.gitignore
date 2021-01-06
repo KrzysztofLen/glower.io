@@ -5,5 +5,5 @@ _site
 vendor
 
 public
-src/assets/bundle.js
+assets/bundle.js
 node_modules
