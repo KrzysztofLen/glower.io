@@ -1,4 +1,4 @@
-# Glower.io
+# [Glower.io](https://krzysztoflen.github.io/glower.io/)
 
 ![CircleCI](https://img.shields.io/circleci/build/github/KrzysztofLen/glower.io?token=56a9cb9dae0b62a5bc968ee0f778ea15ed0adbf3)
 
@@ -35,5 +35,6 @@ Comming soon
 
 ## Documentation
 
-Comming soon
+The documentation resides in the [docs](https://github.com/KrzysztofLen/glower.io/tree/master/docs) directory, and is built with the Ruby-based [Jekyll](https://jekyllrb.com/) tool.
 
+Browse the [online documentation here.](https://krzysztoflen.github.io/glower.io/)
