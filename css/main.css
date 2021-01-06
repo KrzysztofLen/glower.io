@@ -1,6 +1,5 @@
 /* Glow Base */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
 html,
 body,
 p,
@@ -93,10 +92,6 @@ input::-moz-focus-inner {
   to {
     transform: rotate(360deg);
   }
-}
-
-* {
-  font-family: "Barlow", Arial, sans-serif;
 }
 
 .glower-button {
