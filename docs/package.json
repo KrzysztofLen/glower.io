@@ -6,7 +6,7 @@
     "webpack": "webpack -w",
     "build": "jekyll build -w",
     "start": "bundle exec jekyll serve --livereload",
-    "build:scss": "node-sass --output-style expanded --source-map true _sass/main.scss assets/css/main.css"
+    "build:scss": "node-sass --watch --output-style expanded --source-map true _sass/main.scss assets/css/main.css"
   },
   "author": "Krzysztof Len",
   "license": "ISC",

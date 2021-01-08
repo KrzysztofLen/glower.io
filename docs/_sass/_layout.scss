@@ -3,18 +3,30 @@ $lightGrey: #484a4f;
 $primary: #09d3ac;
 $backgroundColor: #1f2327;
 $blueBox: #292d3e;
-$snippetBackground: #f5f5f5;
+$snippetBackground: #272822;
 
 .container {
   background-color: $navbar;
-  height: 100vh;
 }
 
 .nav {
   padding: 1rem 2rem;
+  background: $backgroundColor;
 
   .header {
     font-size: 60px;
+  }
+}
+
+.content {
+  display: flex;
+
+  &__leftSide {
+    width: 70%;
+  }
+
+  &__rightSide {
+    width: 30%;
   }
 }
 
@@ -23,6 +35,7 @@ $snippetBackground: #f5f5f5;
   border: 1px solid white;
   border-radius: 3px;
   padding: 2rem;
+  margin: 0 2rem 1rem 2rem;
 
   &__header {
     color: $primary;
@@ -35,7 +48,10 @@ $snippetBackground: #f5f5f5;
   }
 
   &__right {
-    background-color: $snippetBackground;
+    padding: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color:  $snippetBackground;
   }
 
   &__left {
@@ -43,5 +59,25 @@ $snippetBackground: #f5f5f5;
       margin-bottom: 15px;
       margin-right: 15px;
     }
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  &__header {
+    font-size: 2rem;
+    color: $primary;
+    padding-bottom: 8px;
+  }
+
+  &__subHeader {
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+
+  &__description {
+    font-size: 12px;
+    color: white;
   }
 }
