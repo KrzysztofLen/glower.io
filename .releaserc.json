@@ -4,6 +4,10 @@
       "@semantic-release/commit-analyzer",
       {
         "preset": "conventionalcommits",
+        "presetConfig": {
+          "type": "feature",
+          "section": "Features"
+        },
         "releaseRules": [
           {
             "type": "docs",
