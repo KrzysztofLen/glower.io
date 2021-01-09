@@ -1,8 +1,24 @@
 {
-    "prepare": [
-
+  "prepare": [
+    "@semantic-release/changelog"
+  ],
+  "plugins": [
+    "@semantic-release/github",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
     ],
-    "plugins": [
-
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "CHANGELOG.md"
+        ],
+        "message": "Release: ${nextRelease.version}\n\n${nextRelease.notes}"
+      }
     ]
+  ]
 }
