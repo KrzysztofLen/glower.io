@@ -4,10 +4,6 @@
       "@semantic-release/commit-analyzer",
       {
         "preset": "conventionalcommits",
-        "presetConfig": {
-          "type": "feature",
-          "section": "Features"
-        },
         "releaseRules": [
           {
             "type": "docs",
@@ -17,7 +13,20 @@
         ]
       }
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "writerOpts": {
+          "type": "feature"
+        }
+      },
+      {
+        "parserOpts": {
+          "type": "feature",
+          "section": "Features"
+        }
+      }
+    ],
     "@semantic-release/changelog",
     [
       "@semantic-release/git",
