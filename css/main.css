@@ -1,6 +1,5 @@
 /* Glow Base */
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
 html,
 body,
 p,
@@ -95,12 +94,8 @@ input::-moz-focus-inner {
   }
 }
 
-* {
-  font-family: "Barlow", Arial, sans-serif;
-}
-
 .glower-button {
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
   border: 1px solid #eeffee;
   box-shadow: inset 5px 5px 15px -2px transparent, inset 1px 0px 10px 0px #eeffee, 1px 0px 10px 0px #eeffee;
   color: #eeffee;
@@ -141,7 +136,7 @@ input::-moz-focus-inner {
 
 .glower-button.yellow:disabled:hover {
   color: #ffff33;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.yellow.text-light {
@@ -243,7 +238,7 @@ input::-moz-focus-inner {
 
 .glower-button.green:disabled:hover {
   color: #00ff33;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.green.text-light {
@@ -345,7 +340,7 @@ input::-moz-focus-inner {
 
 .glower-button.red:disabled:hover {
   color: #ff0000;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.red.text-light {
@@ -447,7 +442,7 @@ input::-moz-focus-inner {
 
 .glower-button.orange:disabled:hover {
   color: #ff6600;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.orange.text-light {
@@ -549,7 +544,7 @@ input::-moz-focus-inner {
 
 .glower-button.aqua:disabled:hover {
   color: #00ffff;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.aqua.text-light {
@@ -651,7 +646,7 @@ input::-moz-focus-inner {
 
 .glower-button.blue:disabled:hover {
   color: #0033ff;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.blue.text-light {
@@ -753,7 +748,7 @@ input::-moz-focus-inner {
 
 .glower-button.magenta:disabled:hover {
   color: #ff00ff;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.magenta.text-light {
@@ -855,7 +850,7 @@ input::-moz-focus-inner {
 
 .glower-button.pink:disabled:hover {
   color: #ff0099;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.pink.text-light {
@@ -957,7 +952,7 @@ input::-moz-focus-inner {
 
 .glower-button.purple:disabled:hover {
   color: #9d00ff;
-  background: linear-gradient(#333933, #222922);
+  background: transparent;
 }
 
 .glower-button.purple.text-light {

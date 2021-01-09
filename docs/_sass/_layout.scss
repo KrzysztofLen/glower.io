@@ -1,0 +1,83 @@
+$navbar: #33363b;
+$lightGrey: #484a4f;
+$primary: #09d3ac;
+$backgroundColor: #1f2327;
+$blueBox: #292d3e;
+$snippetBackground: #272822;
+
+.container {
+  background-color: $navbar;
+}
+
+.nav {
+  padding: 1rem 2rem;
+  background: $backgroundColor;
+
+  .header {
+    font-size: 60px;
+  }
+}
+
+.content {
+  display: flex;
+
+  &__leftSide {
+    width: 70%;
+  }
+
+  &__rightSide {
+    width: 30%;
+  }
+}
+
+.buttons {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 2rem;
+  margin: 0 2rem 1rem 2rem;
+
+  &__header {
+    color: $primary;
+    font-size: 25px;
+  }
+
+  &__left,
+  &__right {
+    width: 50%;
+  }
+
+  &__right {
+    padding: 1rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background-color:  $snippetBackground;
+  }
+
+  &__left {
+    & > .glower-button {
+      margin-bottom: 15px;
+      margin-right: 15px;
+    }
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  &__header {
+    font-size: 2rem;
+    color: $primary;
+    padding-bottom: 8px;
+  }
+
+  &__subHeader {
+    font-size: 20px;
+    padding-bottom: 8px;
+  }
+
+  &__description {
+    font-size: 12px;
+    color: white;
+  }
+}
