@@ -13,19 +13,7 @@
         ]
       }
     ],
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        "writerOpts": {
-          "type": "feature"
-        }
-      },
-      {
-        "parserOpts": {
-          "type": "feature"
-        }
-      }
-    ],
+    "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     [
       "@semantic-release/git",
