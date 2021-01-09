@@ -9,7 +9,16 @@ jobs:
     steps:
       - run: npm install
       - run: npm audit
+  release:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: npm install
+      - run: npx semantic-release
 workflows:
-  test_build_deploy:
+  test_and_release:
     jobs:
-      - check_vulnerabilities
+      - release:
+          requires:
+            - check_vulnerabilities
