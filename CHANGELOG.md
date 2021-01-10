@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/KrzysztofLen/glower.io/compare/v1.3.2...v1.3.3) (2021-01-10)
+
+
+### Bug Fixes
+
+* add badges to readme & updated section description ([#16](https://github.com/KrzysztofLen/glower.io/issues/16)) ([12c1ff8](https://github.com/KrzysztofLen/glower.io/commit/12c1ff8233253a204086e9301f5fa9d71e9225d7))
+
 ## [1.3.2](https://github.com/KrzysztofLen/glower.io/compare/v1.3.1...v1.3.2) (2021-01-10)
 
 
