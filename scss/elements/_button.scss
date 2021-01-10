@@ -39,6 +39,16 @@ $round: (5, 10, 15, 20, 25);
     }
   }
 
+  &.loading {
+    color: transparent;
+
+    @include spinner($button-color);
+
+    &:before {
+      border-top-color: $button-text;
+    }
+  }
+
   @each $name, $colour in $colours {
     &.#{$name} {
       color: $colour;
