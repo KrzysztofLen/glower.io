@@ -19,14 +19,14 @@ Glower is constantly in development! Try it out now:
 ### NPM
 
 ```sh
-Comming soon
+npm install glower.io
 ```
 
 ### Import
 After installation, you can import the CSS file into your project using this snippet:
 
 ```sh
-@import 'glower/css/main.css'
+@import 'glower/css/main.min.css'
 ```
 
 ## Browser Support
