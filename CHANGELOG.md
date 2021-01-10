@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/KrzysztofLen/glower.io/compare/v1.2.0...v1.3.0) (2021-01-10)
+
+
+### Bug Fixes
+
+* spinner color for default button ([84daa8e](https://github.com/KrzysztofLen/glower.io/commit/84daa8ed92cca9f13b3526c89913b7b36386f9a2))
+
+
+### Features
+
+* add loading button docs ([e53e4df](https://github.com/KrzysztofLen/glower.io/commit/e53e4df706fb306a998227b5fd107311e5027594))
+
 # [1.2.0](https://github.com/KrzysztofLen/glower.io/compare/v1.1.0...v1.2.0) (2021-01-10)
 
 
