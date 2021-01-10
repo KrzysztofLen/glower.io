@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/KrzysztofLen/glower.io/compare/v1.3.0...v1.3.1) (2021-01-10)
+
+
+### Bug Fixes
+
+* restricted access ([b3e8813](https://github.com/KrzysztofLen/glower.io/commit/b3e8813f5d71a24a3c3000c9ec2062e4cd199b98))
+
 # [1.3.0](https://github.com/KrzysztofLen/glower.io/compare/v1.2.0...v1.3.0) (2021-01-10)
 
 
