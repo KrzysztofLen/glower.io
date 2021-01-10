@@ -10,18 +10,18 @@ $backgroundColor: #1f2327;
 
   &__element {
     color: $backgroundColor;
-    font-size: 16px;
+    font-size: 24px;
     padding: 10px;
   }
 
   &__subElement {
-
+    font-size: 16px;
     padding-left: 30px;
     padding-bottom: 20px;
   }
 
   &__anchor {
-    font-size: 12px;
+    font-size: 16px;
     color: lighten($lightGrey, 10%);
   }
 }

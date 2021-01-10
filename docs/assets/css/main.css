@@ -75,7 +75,14 @@ figure {
   background-color: #272822;
 }
 
-.buttons__left > .glower-button {
+.buttons__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.buttons__left > .glower-button, .buttons__left .glower-badge {
   margin-bottom: 15px;
   margin-right: 15px;
 }
@@ -109,17 +116,18 @@ figure {
 
 .sideNav__element {
   color: #1f2327;
-  font-size: 16px;
+  font-size: 24px;
   padding: 10px;
 }
 
 .sideNav__subElement {
+  font-size: 16px;
   padding-left: 30px;
   padding-bottom: 20px;
 }
 
 .sideNav__anchor {
-  font-size: 12px;
+  font-size: 16px;
   color: #60636a;
 }
 
