@@ -18,6 +18,9 @@ jobs:
       - run: npx semantic-release
 workflows:
   version: 2
+  test_build_deploy:
+    jobs:
+      - check_vulnerabilities
   test_and_release:
     jobs:
       - check_vulnerabilities
