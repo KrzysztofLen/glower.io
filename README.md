@@ -29,7 +29,7 @@ npm install glower.io
 After installation, you can import the CSS file into your project using this snippet:
 
 ```sh
-@import 'glower/css/main.min.css'
+@import 'glower.io/css/main.min.css'
 ```
 
 ## Browser Support
