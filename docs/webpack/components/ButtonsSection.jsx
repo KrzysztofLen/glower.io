@@ -134,6 +134,71 @@ class ButtonsSection extends Component {
             </pre>
           </div>
         </div>
+        <div className="section">
+          <h2 id="buttons" className="section__header">
+            Buttons
+          </h2>
+          <h4 className="section__subHeader">loading</h4>
+        </div>
+        <div className="buttons">
+          <div className="buttons__left">
+            <button className="glower-button aqua loading">Info</button>
+            <button className="glower-button green loading">Success</button>
+            <button className="glower-button red loading">Danger</button>
+            <button className="glower-button orange loading">Warning</button>
+          </div>
+          <div className="buttons__right">
+            <pre>
+              <code className="language-html" data-lang="html">
+                &lt;button class="glower-button aqua
+                loading"&gt;Info&lt;button&gt;
+                <br />
+                &lt;button class="glower-button green
+                loading"&gt;Success&lt;button&gt;
+                <br />
+                &lt;button class="glower-button red
+                loading"&gt;Danger&lt;button&gt;
+                <br />
+                &lt;button class="glower-button orange
+                loading"&gt;Warning&lt;button&gt;
+              </code>
+            </pre>
+          </div>
+        </div>
+        <div className="buttons">
+          <div className="buttons__left">
+            <button className="glower-button loading">Loading</button>
+            <button className="glower-button yellow loading">Loading</button>
+            <button className="glower-button blue loading">Loading</button>
+            <button className="glower-button magenta loading">Loading</button>
+            <button className="glower-button pink loading">Loading</button>
+            <button className="glower-button purple loading">Loading</button>
+          </div>
+          <div className="buttons__right">
+            <pre>
+              <code className="language-html" data-lang="html">
+                &lt;button class="glower-button
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+                &lt;button class="glower-button yellow
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+                &lt;button class="glower-button blue
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+                &lt;button class="glower-button magenta
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+                &lt;button class="glower-button pink
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+                &lt;button class="glower-button purple
+                loading"&gt;Loading&lt;button&gt;
+                <br />
+              </code>
+            </pre>
+          </div>
+        </div>
       </React.Fragment>
     );
   }
