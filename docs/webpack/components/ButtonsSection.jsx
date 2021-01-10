@@ -10,11 +10,9 @@ class ButtonsSection extends Component {
           </h2>
           <h4 className="section__subHeader">outlined (default)</h4>
           <p className="section__description">
-            The button is an essential element of any design. It's meant to look
-            and behave as an interactive element of your page.
+            The button is an primary element of any design.
             <br />
-            The button is available in all the different colors defined by the
-            $colors Sass map.
+            The button is available in all the glowers colors.
           </p>
         </div>
         <div className="buttons">
@@ -75,6 +73,9 @@ class ButtonsSection extends Component {
             Buttons
           </h2>
           <h4 className="section__subHeader">fullfilled</h4>
+          <p className="section__description">
+            This is a fullfilled version of button.
+          </p>
         </div>
         <div className="buttons">
           <div className="buttons__left">
@@ -139,6 +140,9 @@ class ButtonsSection extends Component {
             Buttons
           </h2>
           <h4 className="section__subHeader">loading</h4>
+          <p className="section__description">
+            This is a loading version of button.
+          </p>
         </div>
         <div className="buttons">
           <div className="buttons__left">

@@ -8,12 +8,9 @@ class BadgeSection extends Component {
           <h2 id="badges" className="section__header">
             Badge
           </h2>
-          {/* <h4 className="section__subHeader">outlined (default)</h4> */}
           <p className="section__description">
-            The Glower badge is a small but versatile element. It's very useful
-            as a way to attach information to a block or other component. Its
-            size makes it also easy to display in numbers, making it appropriate
-            for long lists of items.
+            The Glower badge are is a small elements that could be very useful
+            as a way to attach information.
           </p>
         </div>
         <div className="buttons">
