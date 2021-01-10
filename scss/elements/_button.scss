@@ -8,127 +8,138 @@ $button-size: $medium !default;
 $round: (5, 10, 15, 20, 25);
 
 .glower-button {
-	background: $button-background;
-	border: 1px solid $button-color;
-	@include glower($button-color);
-	color: $button-color;
-	line-height: 1em;
-	margin: 0;
-	padding: 0.75em 4em;
-	font-size: $button-size;
-	cursor: pointer;
-	text-align: center;
-	white-space: nowrap;
-	outline: none;
-	position: relative;
+  background: $button-background;
+  border: 1px solid $button-color;
+  @include glower($button-color);
+  color: $button-color;
+  line-height: 1em;
+  margin: 0;
+  padding: 0.75em 4em;
+  font-size: $button-size;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  outline: none;
+  position: relative;
 
-	&:hover {
-		color: $button-text;
-		transition: all 0.2s ease-in;
-		background: $button-color;
-	}
+  &:hover {
+    color: $button-text;
+    transition: all 0.2s ease-in;
+    background: $button-color;
+  }
 
-	@each $name, $colour in $colours {
-		&.#{$name} {
-			color: $colour;
-			border: 1px solid $colour;
-			@include glower($colour);
+  &.full {
+    color: $button-text;
+    background: $button-color;
 
-			&:hover {
-				color: $button-text;
-				transition: all 0.2s ease-in;
-				background: $colour;
-			}
+    &:hover {
+      border: 1px solid lighten($button-color, 10%);
+      background: lighten($button-color, 10%);
+      @include glower(lighten($button-color, 10%));
+    }
+  }
 
-			&:disabled {
-				opacity: 0.5;
-				cursor: not-allowed;
-				user-select: none;
+  @each $name, $colour in $colours {
+    &.#{$name} {
+      color: $colour;
+      border: 1px solid $colour;
+      @include glower($colour);
 
-				&:hover {
-					color: $colour;
-					background: $button-background;
-				}
-			}
+      &:hover {
+        color: $button-text;
+        transition: all 0.2s ease-in;
+        background: $colour;
+      }
 
-			&.text-light {
-				color: $white;
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        user-select: none;
 
-				&:disabled {
-					&:hover {
-						color: $white;
-					}
-				}
-			}
+        &:hover {
+          color: $colour;
+          background: $button-background;
+        }
+      }
 
-			&.full {
-				color: $button-text;
-				background: $colour;
+      &.text-light {
+        color: $white;
 
-				&:hover {
-					border: 1px solid lighten($colour, 10%);
-					background: lighten($colour, 10%);
-					@include glower(lighten($colour, 10%));
-				}
+        &:disabled {
+          &:hover {
+            color: $white;
+          }
+        }
+      }
 
-				&:disabled {
-					opacity: 0.5;
-					cursor: not-allowed;
-					user-select: none;
+      &.full {
+        color: $button-text;
+        background: $colour;
 
-					&:hover {
-						color: $button-text;
-						background: $colour;
-					}
-				}
+        &:hover {
+          border: 1px solid lighten($colour, 10%);
+          background: lighten($colour, 10%);
+          @include glower(lighten($colour, 10%));
+        }
 
-				&.text-light {
-					color: $white;
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+          user-select: none;
 
-					&:disabled {
-						&:hover {
-							color: $white;
-						}
-					}
-				}
-			}
+          &:hover {
+            color: $button-text;
+            background: $colour;
+          }
+        }
 
-			&.loading {
-				color: transparent;
+        &.text-light {
+          color: $white;
 
-				@include spinner($colour);
-			}
+          &:disabled {
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
 
-			@each $value in $round {
-				&.rounded-#{$value} {
-					border-radius: $value + px;
-				}
-			}
-		}
-	}
+      &.loading {
+        color: transparent;
+
+        @include spinner($colour);
+      }
+
+      @each $value in $round {
+        &.rounded-#{$value} {
+          border-radius: $value + px;
+        }
+      }
+    }
+  }
 }
 
 // Sizes
 .small {
-	font-size: $small;
+  font-size: $small;
 }
 
 .medium {
-	font-size: $medium;
+  font-size: $medium;
 }
 
 .large {
-	font-size: $large;
+  font-size: $large;
 }
 
 .full-width {
-	width: 100%;
+  width: 100%;
 }
 
 .text-light {
-	color: $white;
+  color: $white;
 
-	&:hover {
-		color: $white;
-	}
+  &:hover {
+    color: $white;
+  }
 }

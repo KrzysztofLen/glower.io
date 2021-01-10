@@ -13,13 +13,13 @@ class SideNav extends Component {
               </a>
             </li>
             <li className="sideNav__subElement">
-              <a className="sideNav__anchor" href="#notifications">
-                Notifications
+              <a className="sideNav__anchor" href="#badges">
+                Badges
               </a>
             </li>
             <li className="sideNav__subElement">
-              <a className="sideNav__anchor" href="#badges">
-                Badges
+              <a className="sideNav__anchor" href="#notifications">
+                Notifications
               </a>
             </li>
           </ul>

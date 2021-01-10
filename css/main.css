@@ -116,6 +116,17 @@ input::-moz-focus-inner {
   background: #eeffee;
 }
 
+.glower-button.full {
+  color: #333933;
+  background: #eeffee;
+}
+
+.glower-button.full:hover {
+  border: 1px solid white;
+  background: white;
+  box-shadow: inset 5px 5px 15px -2px transparent, inset 1px 0px 10px 0px white, 1px 0px 10px 0px white;
+}
+
 .glower-button.yellow {
   color: #ffff33;
   border: 1px solid #ffff33;
