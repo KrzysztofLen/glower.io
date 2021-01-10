@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/KrzysztofLen/glower.io/compare/v1.1.0...v1.2.0) (2021-01-10)
+
+
+### Features
+
+* add badge docs & buttons ([#15](https://github.com/KrzysztofLen/glower.io/issues/15)) ([9c270b5](https://github.com/KrzysztofLen/glower.io/commit/9c270b5e8a91f16076babddb76594aa7f8f35a94))
+
 # [1.1.0](https://github.com/KrzysztofLen/glower.io/compare/v1.0.1...v1.1.0) (2021-01-09)
 
 
