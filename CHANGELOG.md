@@ -12,7 +12,6 @@
 
 * custom type for changelog ([8518db2](https://github.com/KrzysztofLen/glower.io/commit/8518db229b4fbd36689d35cf5fa55e89154f64e3))
 
-## [1.0.1](https://github.com/KrzysztofLen/glower.io/compare/v1.0.0...v1.0.1) (2021-01-09)
 
 # 1.0.0 (2021-01-09)
 
