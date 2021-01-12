@@ -9,7 +9,9 @@
 <br />
 <br />
 
-Glower is a **CSS framework** to make your **dark mode exordinary**.
+Glower.io is a **CSS framework** to make your **dark mode exordinary**. 
+
+Build your **dark mode** fast, effectively without tears with **glow** effect. Use predefined **classes** or **components**.
 
 <br />
 <img src=https://i.ibb.co/vYMyv1C/ezgif-com-gif-maker-1.gif />
