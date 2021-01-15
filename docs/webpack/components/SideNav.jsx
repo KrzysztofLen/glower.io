@@ -5,6 +5,14 @@ class SideNav extends Component {
     return (
       <div className="sideNav">
         <ul>
+          <li className="sideNav__element">Getting started</li>
+          <ul>
+            <li className="sideNav__subElement">
+              <a className="sideNav__anchor" href="#buttons">
+                Installation
+              </a>
+            </li>
+          </ul>
           <li className="sideNav__element">Elements</li>
           <ul>
             <li className="sideNav__subElement">

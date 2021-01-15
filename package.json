@@ -5,7 +5,7 @@
     "name": "Krzysztof Len",
     "email": "len.krzysztof@gmail.com"
   },
-  "description": "Glow is CSS framework to make your dark mode exordinary",
+  "description": "Glower is CSS framework to make your dark mode exordinary",
   "main": "scss/main.scss",
   "scripts": {
     "build": "npm run build:scss && npm run build:autoprefix && npm rum build:cleancss",
