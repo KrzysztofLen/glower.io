@@ -30,6 +30,11 @@ class SideNav extends Component {
                 Notifications
               </a>
             </li>
+            <li className="sideNav__subElement">
+              <a className="sideNav__anchor" href="#toggle">
+                Toggle button
+              </a>
+            </li>
           </ul>
           <li className="sideNav__element">Components</li>
           <ul>
