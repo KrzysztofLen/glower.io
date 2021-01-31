@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/KrzysztofLen/glower.io/compare/v1.3.4...v1.4.0) (2021-01-31)
+
+
+### Features
+
+* toggle button docs ([#18](https://github.com/KrzysztofLen/glower.io/issues/18)) ([7c49b59](https://github.com/KrzysztofLen/glower.io/commit/7c49b591fc9151a4dc8e7f3120d946eec76575aa))
+
 ## [1.3.4](https://github.com/KrzysztofLen/glower.io/compare/v1.3.3...v1.3.4) (2021-01-10)
 
 
