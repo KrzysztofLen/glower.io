@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SideNav from "./SideNav.jsx";
 import ButtonsSection from "./ButtonsSection.jsx";
 import BadgeSection from "./BadgeSection.jsx";
+import ToggleSection from "./ToggleSection.jsx";
 import Hero from "./Hero.jsx";
 import "./../../assets/css/main.css";
 import "./../../../css/main.css";
@@ -21,6 +22,7 @@ class Main extends Component {
             <div className="content__leftSide">
               <ButtonsSection />
               <BadgeSection />
+              <ToggleSection />
             </div>
             <div className="content__rightSide">
               <SideNav />

@@ -63,6 +63,7 @@
     "stylelint-scss": "^3.18.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "branches": ["master"]
   }
 }
